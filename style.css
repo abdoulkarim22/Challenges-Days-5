@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: #160a2e; */
+}
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.container-card{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 510px;
+    height: 320px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #dedede;
+}
+.card-second{
+    width: 510px;
+    height: 320px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #dedede;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0.1px;
+    
+    background-color: #323b4a;
+}
+.div-elements{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.div-name{
+    display: grid;
+    gap: 20px;
+}
+.div-Info{
+    height: 100px;
+    width: 100px;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    display: grid;
+    gap: 20px;
+}
+.div-Home{
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.div-Suivez-Nous{
+  display: grid;
+}
+ul li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.titre-Kassuwa{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffc738;
+}
+.titre-info{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffc738;
+}
+.lesliens{
+    color: #ffc738;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-logo{
+    width: 75px;
+    border-radius: 100%;
+}
+.text-Site{
+    color: #ffc738;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+.texte-Suivez-Nous{
+    color: #ffc738;
+    font-size: 19px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div-media-social{
+    position: absolute;
+    bottom: 200px;
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    right: 160px;
+}
+.fa-facebook{
+    color: white;
+    font-size: 30px;
+}
+.fa-linkedin{
+    color: white;
+    font-size: 30px;
+}
+.fa-instagram{
+    color: white;
+    font-size: 30px;
+}
+.div-image{
+    gap: 10px;
+    display: grid;
+    display: flex;
+}
+.div-image-second{
+    gap: 10px;
+    display: grid;
+    display: flex;
+}
+.img-pub{
+    width: 75px;
+    height: 75px;
+}
+
+.div-img-media-social{
+position: absolute;
+top: 130px;
+gap: 10px;
+display: grid;
+right: 107px;
+} 
+
+/* .img-works{
+    width: 510px;
+    height: 320px;
+    border-radius: 23px;
+} */
